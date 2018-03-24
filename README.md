@@ -17,6 +17,8 @@ FreeCodeCamp API lesson - Timestamp
 
 <h3>Output</h3>
 
-`{"unix":739324800,"natural":"Sun Jun 06 1993"}`
+`{"unix":739324800,"natural":"Sun Jun 06 1993"}
+`
+<h5>If errors</h5>
 
 `{"unix":null,"natural":null}`
