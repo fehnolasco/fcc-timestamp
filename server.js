@@ -15,7 +15,7 @@ app.get("/:date", (req, res, next) => {
 
   var natural_Date;
   var unix;
-  if (/^\d{8,}$/.test(req.params.date)){
+  if (/^\d{1,}$/.test(req.params.date)){
     natural_Date = new Date(req.params.date * 1000).toUTCString();
     unix = req.params.date;    
   } else {
@@ -23,6 +23,7 @@ app.get("/:date", (req, res, next) => {
     unix = Math.floor(new Date(natural_Date)/1000);    
   }
   
+ 
   if (natural_Date) {
     
     res.json({

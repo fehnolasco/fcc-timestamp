@@ -10,15 +10,12 @@ FreeCodeCamp API lesson - Timestamp
 [https://felipe-fcc-timestamp.glitch.me/](https://felipe-fcc-timestamp.glitch.me/)
 
 <h3>Example</h3>
-
 `https://felipe-fcc-timestamp.glitch.me/June%2006,%201993`
 
 `https://felipe-fcc-timestamp.glitch.me/739324800`
 
 <h3>Output</h3>
+`{"unix":739324800,"natural":"Sun Jun 06 1993"}`
 
-`{"unix":739324800,"natural":"Sun Jun 06 1993"}
-`
-<h5>If errors</h5>
-
+<h3>If error</h3>
 `{"unix":null,"natural":null}`

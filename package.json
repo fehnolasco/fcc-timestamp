@@ -1,7 +1,11 @@
 {
-  "name": "Fcc-timestamp",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "my-glitch-app",
   "version": "0.0.1",
-  "description": "Lesson",
+  "description": "What am I about?",
   "scripts": {
     "start": "node server.js"
   },
@@ -12,12 +16,10 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/my-glitch-app",
-    "git": "https://github.com/fehnolasco/fcc-timestamp"
+    "url": "https://glitch.com/edit/#!/my-glitch-app"
   },
   "license": "MIT",
   "keywords": [
-    "FreeCodeCamp",
     "node",
     "glitch",
     "express"
